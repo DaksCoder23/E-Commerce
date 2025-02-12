@@ -1,97 +1,70 @@
-🛍️ E-Commerce Website
-A React.js-based e-commerce platform with product filtering, sorting, cart management, and a dashboard with data visualization.
+# Getting Started with Create React App
 
-🚀 Features
-🔍 Product Filtering & Sorting (by category, price range, and rating)
-🛒 Cart System (add/remove products)
-📊 Dashboard View (category-wise distribution & sales analytics)
-🎨 Modern UI Design (responsive and interactive)
-🔧 Reusable Components (optimized for scalability)
-📂 Project Structure
-csharp
-Copy
-Edit
-e-commerce-app/
-│── public/             # Static assets (favicon, index.html)
-│── src/                # Main source code
-│   ├── components/ 
-│   |   |── App.jsx  
-│   │   ├── About.jsx
-│   │   ├── Cart.jsx
-│   │   ├── Home.jsx
-│   │   ├── NavBar.jsx
-│   │   ├── ProductDetail.jsx
-│   │   ├── ProductList.jsx
-│   │   ├── About.css
-│   │   ├── App.css
-│   │   ├── cart.css
-│   │   ├── Home.css
-│   │   ├── NavBar.css
-│   │   ├── ProductDetail.css
-│   │   ├── ProductList.css
-│   ├── index.css       # Global styles
-│   ├── index.js        # Root component
-     
-│── package.json        # Project dependencies
-│── README.md           # Documentation
-│── .gitignore          # Git ignore file
-📦 Dependencies
-Make sure you have Node.js installed, then install the required packages:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-json
-Copy
-Edit
-"dependencies": {
-  "react": "^18.0.0",
-  "react-dom": "^18.0.0",
-  "react-router-dom": "^6.10.0",
-  "react-chartjs-2": "^5.1.0",
-  "chart.js": "^4.4.0"
-}
-📌 Installation & Setup
-Follow these steps to set up the project locally:
+## Available Scripts
 
-1️⃣ Clone the Repository
-sh
-Copy
-Edit
-git clone https://github.com/yourusername/e-commerce-app.git
-cd e-commerce-app
-2️⃣ Install Dependencies
-sh
-Copy
-Edit
-npm install
-3️⃣ Start the Development Server
-sh
-Copy
-Edit
-npm start
-The project will run at http://localhost:3000/.
+In the project directory, you can run:
 
-🛠️ Features Breakdown
-📌 Product Listing & Filtering
-Filter by category, price range, and rating.
-Real-time product updates as filters change.
-Price sorting via a range slider and rating sorting via a star selector.
-🛒 Cart Management
-Add/Remove products dynamically.
-View total price and quantity in the cart.
-Uses local state to manage the cart.
-📊 Dashboard & Analytics
-Sales by Category (Bar Chart)
-Product Distribution (Doughnut Chart)
-🎨 UI Enhancements
-Modern UI with animations and interactive elements.
-Grid-based product layout with aligned buttons.
-Sticky Navbar with dropdowns.
-🚀 Future Improvements
-🔄 API Integration (Fetch real-time product data from a backend).
-🛒 Checkout System (Integrate payment gateway).
-📦 State Management with Redux.
-🌍 Multi-language Support.
-📜 License
-This project is licensed under the MIT License.
+### `npm start`
 
-💡 Feel free to contribute! Fork the repo and submit a pull request. 🚀
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
